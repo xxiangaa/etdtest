@@ -6,7 +6,7 @@ import React from "react";
 import "antd/dist/antd.css";
 import { useRouter } from "next/router";
 
-export default function page5() {
+export default function Index() {
   const [fileList, setFileList] = React.useState<UploadFile[]>([
     {
       uid: "-1",

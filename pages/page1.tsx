@@ -4,7 +4,6 @@ import "antd/dist/antd.css";
 //import "./index.css";
 import { Upload, Modal, Tooltip, Input, Button } from "antd";
 import { ArrowLeftOutlined, PlusOutlined } from "@ant-design/icons";
-import { Head } from "next/document";
 import Link from "next/link";
 import axios from "axios";
 
