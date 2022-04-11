@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         <Title
           title={"创建一个你的"}
           link={"NFT"}
-          content={"第一步：在这里绘制你的小人"}
+          content={"在这里绘制你的小人"}
           color={color}
         />
         <div className={styles.grid}></div>
@@ -97,10 +97,12 @@ const Home: NextPage = () => {
           brushColor={color}
           ref={canvasRef}
         />
-        <br />
-        <Button type="primary">
+        {/* <br />
+<Question ID="1" Shortcut="chapter 1" Order="" ElementType="chapter" >
+<LongCaption>{/* <Button type="primary"></LongCaption>
+</Question>
           <Link href={"./page1"}>下一步</Link>
-        </Button>
+        </Button> */}
       </main>
 
       <footer className={styles.footer}>
