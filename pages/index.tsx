@@ -38,9 +38,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Title
-          title={"创建一个你的"}
+          title={"創建一個你的"}
           link={"NFT"}
-          content={"在这里绘制你的小人"}
+          content={"請在這裡繪製你的小人"}
           color={color}
         />
         <div className={styles.grid}></div>
